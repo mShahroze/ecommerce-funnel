@@ -115,7 +115,7 @@ export default function HomeClient(): React.ReactNode {
 
   return (
     <section>
-      <h1 style={{ fontSize: 24, marginBottom: 16 }}>Hello!</h1>
+      <h1 style={{ fontSize: 24, marginBottom: 16 }}>Hello, Muhammad!</h1>
       <Row>
         <Col span={12}>
           <Card title={<h3>Scout technical exercise</h3>} bordered={false}>
