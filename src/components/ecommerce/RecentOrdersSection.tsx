@@ -1,6 +1,7 @@
 import { IModelCommerceUserEventWithReferences } from '@/services/ecommerce/EntityCommerceUserEventService';
 import useFetchOnce from '@/utils/client/useFetchOnce';
-import { Avatar, Card } from 'antd';
+import Avatar from 'antd/es/avatar';
+import Card from 'antd/es/card';
 import Table, { ColumnsType } from 'antd/es/table';
 
 const columns: ColumnsType<IModelCommerceUserEventWithReferences> = [

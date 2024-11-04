@@ -1,7 +1,8 @@
 'use client';
 
 import { AreaChartOutlined, HomeOutlined } from '@ant-design/icons';
-import { Layout, Menu } from 'antd';
+import Layout from 'antd/es/layout';
+import Menu from 'antd/es/menu';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react';
