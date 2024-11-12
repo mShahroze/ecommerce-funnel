@@ -1,5 +1,8 @@
 import useFetchOnce from '@/utils/client/useFetchOnce';
-import { Row, Col, Card, Statistic } from 'antd';
+import Card from 'antd/es/card';
+import Col from 'antd/es/col';
+import Row from 'antd/es/row';
+import Statistic from 'antd/es/statistic';
 
 const ENDPOINT_URL = '/api/ecommerce/order-summaries';
 

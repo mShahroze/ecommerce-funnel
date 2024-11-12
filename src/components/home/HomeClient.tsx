@@ -6,7 +6,11 @@ import {
   LoadingOutlined,
   RocketOutlined,
 } from '@ant-design/icons';
-import { Alert, Button, Card, Col, Row } from 'antd';
+import Alert from 'antd/es/alert';
+import Button from 'antd/es/button';
+import Card from 'antd/es/card';
+import Col from 'antd/es/col';
+import Row from 'antd/es/row';
 import React, { useEffect, useRef, useState } from 'react';
 
 type TSeedDataSupportedHTTPMethods = 'POST' | 'DELETE';
